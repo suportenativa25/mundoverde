@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mundo Verde — Sistema de Pedidos</title>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Nunito+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>}
+<script src="./config.js"></script>
 <style>
 :root{
   --g1:#148c54;--g2:#abdbcc;--g3:#148459;--g4:#54a27c;--g5:#a2d1bd;
@@ -684,7 +685,7 @@ let respSolId  = null;
 // ═══════════════════════════════════════════════════════════
 // API HELPERS — JWT
 // ═══════════════════════════════════════════════════════════
-const API_BASE = 'https://assessing-exam-bristol-dvd.trycloudflare.com';
+const API_BASE = window.API_BASE_URL;
 
 function getToken() {
   return localStorage.getItem('mv_token');
