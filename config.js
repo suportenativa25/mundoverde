@@ -1,1 +1,1 @@
-window.API_BASE_URL = 'https://plugin-constitutes-physician-kitchen.trycloudflare.com';
+window.API_BASE_URL = 'https://reminder-threats-align-tan.trycloudflare.com';
